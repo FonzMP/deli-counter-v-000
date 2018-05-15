@@ -19,5 +19,5 @@ def take_a_number(array, name)
   array.push(name)
   index_adjust = array[name].index
   index_variable = index_adjust.to_s
-  puts "Welcome, #{name}. You are number #{index_adjust} in line."
+  puts "Welcome, #{name}. You are number #{index_variable} in line."
 end
