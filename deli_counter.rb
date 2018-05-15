@@ -8,7 +8,7 @@ def line(array)
     index = 1
     new_string =  "The line is currently: "
     array.each do |name|
-      new_string += "#{index}. #{name} "
+      new_string += "#{index}. #{name}"
       index += 1
     end
   end
