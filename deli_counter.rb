@@ -12,6 +12,7 @@ def line(array)
       index += 1
     end
     puts new_string
+    return new_string
   end
 end
 
