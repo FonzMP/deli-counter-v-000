@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else
     index = 1
-    puts "The current line is: "
+    new_string "The current line is: "
     array.each do |name|
       puts "#{index}. #{name} "
       index += 1
