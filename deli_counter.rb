@@ -11,8 +11,8 @@ def line(array)
       new_string += "#{index}. #{name}"
       index += 1
     end
+    return new_string
   end
-  return new_string
 end
 
 def take_a_number(array, name)
