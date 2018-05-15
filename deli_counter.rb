@@ -20,3 +20,7 @@ def take_a_number(array, name)
   location_number = array.index(name) + 1
   puts "Welcome, #{name}. You are number #{location_number} in line."
 end
+
+def now_serving(array)
+
+end
