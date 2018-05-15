@@ -11,7 +11,7 @@ def line(array)
       new_string += " #{index}. #{name}"
       index += 1
     end
-    return new_string
+    puts new_string
   end
 end
 
