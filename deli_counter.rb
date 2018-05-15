@@ -9,6 +9,7 @@ def line(array)
     puts "The current line is: "
     array.each do |name|
       puts "#{index}. #{name} "
+      index += 1
   end
 end
 
