@@ -17,6 +17,6 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  index = array[name].index.to_i + 1
+  index_adjust = array[name].index.to_i + 1
   puts "Welcome, #{name}. You are number #{index} in line."
 end
